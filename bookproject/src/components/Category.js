@@ -1,1 +1,0 @@
-//le sidebar des category

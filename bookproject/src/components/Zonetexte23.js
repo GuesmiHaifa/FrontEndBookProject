@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Bookpage = () => {
+const Zonetexte23 = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const Bookpage = () => {
     );
 };
 
-export default Bookpage;
+export default Zonetexte23;
