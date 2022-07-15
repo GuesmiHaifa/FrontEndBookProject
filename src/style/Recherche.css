@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Noto+Serif:ital@1&family=Open+Sans:ital@1&display=swap');
+*{
+    font-family: 'Crimson Text', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+#search input{
+    outline: 0;
+    border: 10;
+    width: 450px;
+    height: 35px;
+    padding: 5 0.5rem;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+header h1{
+    font-size: 3rem;
+    text-align: justify;
+    margin-left: 30px;
+    font-family: 'Crimson Text', serif;
+}
+
+#search button{
+    outline: auto;
+    border: none;
+    height: 35px;
+    padding: 5 0.5rem;
+    color: #0f5e0f;
+    
+}
