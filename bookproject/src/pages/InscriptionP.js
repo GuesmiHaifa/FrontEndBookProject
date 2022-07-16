@@ -5,7 +5,7 @@ import axios from 'axios';
 import React, { useState } from 'react';
 import '../style/Inscription.css';
 
-export default function Inscription(){
+export default function InscriptionP(){
     const url ="http://localhost:8090/api/users/adduser"
     const [data, setData] = useState({
         username: "",
@@ -48,8 +48,8 @@ function handle(e){
 <div className='container'>
 
  <div>
-     <h3><strong>Nouveau sur Livres Sans Frontières ?</strong></h3>
-     <h3 className='text-3xl text-success'>Veuillez vous inscrire aux livres trocs</h3>
+     <h3><strong>Nouveau? On vous accompagne!</strong></h3>
+     <h3 className='text-3xl text-success'>Veuillez remplir et valider le formulaire suivant</h3>
      </div> 
 
      <div>
