@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 
@@ -27,13 +26,6 @@ const Categorie1 = () => {
                 (<li key={catName}>{catName}</li>
                 ) )}
             </ul>
-=======
-import React from 'react';
-
-const Categorie1 = () => {
-    return (
-        <div>
->>>>>>> c31a1169206515ca83243a22b598ccce0b054d46
             
         </div>
     );
