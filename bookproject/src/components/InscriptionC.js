@@ -13,7 +13,8 @@ const InscriptionC = () => {
           Nouveau sur Livres sans Frontières?  
         </div>
 
-            <button onClick={toInscription} type='submit' className='btn btn-success btn-block' > Veuillez vous inscrire</button>
+            <button onClick={toInscription
+            } type='submit' className='btn btn-success btn-block' > Veuillez vous inscrire</button>
         
         </div>
     );
