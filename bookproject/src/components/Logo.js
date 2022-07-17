@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Inscription = () => {
+const Logo = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const Inscription = () => {
     );
 };
 
-export default Inscription;
+export default Logo;
