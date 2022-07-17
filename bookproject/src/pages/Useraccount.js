@@ -1,1 +1,11 @@
-//contient le compte d'utilisateur 
+import React from 'react';
+
+const Useraccount = () => {
+    return (
+        <div>
+            
+        </div>
+    );
+};
+
+export default Useraccount;

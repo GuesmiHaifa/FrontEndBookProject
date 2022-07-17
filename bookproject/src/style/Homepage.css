@@ -1,0 +1,134 @@
+
+.App {
+  height: 100vh;
+  /*width: 80%;*/
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0%;
+  margin-right: 0%;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 1.5fr 1fr 4fr 4fr 1fr ;
+
+  grid-template-areas: 
+  "logo recherche"
+  "connexion hero"
+  "inscription zone-texte-1"
+  "categorie1 zone-texte-2-3"
+  "categorie-2 zone-livres-1-2"
+  "footer-1 footer-2"
+    ;
+}
+@media screen and (max-width: 1000px){
+  .App{
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1.5fr 1.5fr 1.5fr 2fr 2fr 2fr 2fr 2fr 1fr 1fr;
+      grid-template-areas: 
+
+      "logo" 
+      "recherche"
+      "hero"
+      "connexion" 
+      "inscription"
+      "zone-texte-1"
+      "categorie1"
+      "categorie-2"
+      "zone-texte-2-3"
+    
+      "zone-livres-1-2"
+      "footer-1"
+      "footer-2"
+
+      ;
+  }
+  
+}
+
+#logo{
+  display: flex;
+  border: 1px solid;
+  justify-content: center;
+  align-items: center;
+}
+#recherche{
+  display: flex;
+  border: 1px solid;
+  justify-content: center;
+  align-items: center;
+  
+}
+#connection{
+  display: flex;
+  flex-wrap: wrap;;
+  border: 1px solid;
+  justify-content: center;
+  align-items: center;
+  /*padding: 40%;*/
+  /*background-color: red;*/
+}
+#hero{
+  
+  border: 1px solid;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+#inscription{
+  display: flex;
+  border: 1px solid;
+  justify-content: center;
+  align-items: center;
+}
+#zone-texte-1{
+  display: flex;
+  border: 1px solid;
+  justify-content: center;
+  align-items: left;
+  margin: 5px;
+}
+#categorie-1{
+  display: flex;
+  border: 1px solid;
+  justify-content: center;
+  align-items: center;
+}
+#zone-texte-2-3{
+  display: flex;
+  border: 1px solid;
+  justify-content: left;
+  align-items: flex-start;
+  padding: 0px;
+}
+#categorie-2{
+  display: flex;
+  border: 1px solid;
+  justify-content: center;
+  align-items: center;
+}
+#zone-livres-1-2{
+  display: flex;
+  border: 1px solid;
+  justify-content: center;
+  align-items: center;
+
+}
+#footer-1{
+  display: flex;
+  border: 1px solid;
+  justify-content: center;
+  align-items: center;
+}
+#footer-2{
+  display: flex;
+  border: 1px solid;
+  justify-content: center;
+  align-items: center;
+}
+.alert{
+  padding: 10px;
+  margin: 0px;
+}
+.container1{
+  display: flex;
+}
