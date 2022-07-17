@@ -24,7 +24,7 @@ function App() {
       <Navigation />
         <div className='main'>
           <Routes>     {/*C'est  à l'interieur de cette balise que React va charger les routes*/}
-            <Route path="/homepaage" element={<Homepage/>} />
+            <Route path="/homepage" element={<Homepage/>} />
             <Route path="/cgu" element={<CGUpage/>} />
             <Route path="/Bookpage" element={<Bookpage/>} />
           </Routes>
