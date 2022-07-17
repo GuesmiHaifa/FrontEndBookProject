@@ -1,11 +1,18 @@
-import React from 'react';
+import React from "react";
+import '../style/Footer1.css'
+import ColoredLine from "./ColoredLine";
+  
+function Footer1  ()  {
+  console.log(new Date().getFullYear());
+return(
+  <footer className="footer">
 
-const Footer1 = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+
+    
+
+  
+  </footer>
+)
 };
 
 export default Footer1;

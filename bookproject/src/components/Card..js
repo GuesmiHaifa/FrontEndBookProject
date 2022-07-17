@@ -1,1 +1,0 @@
-//le comtenant de chaque livre (la carte des infos)

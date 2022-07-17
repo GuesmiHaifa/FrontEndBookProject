@@ -1,0 +1,165 @@
+
+.Zone {
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: grid;
+    grid-template-columns: 1fr  4fr ;
+
+
+
+    grid-template-areas: 
+    "Image_book"
+    "Text"
+      ;
+  }
+
+
+  .Sub_Zone {
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: grid;
+    grid-template-columns: 3fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "details boite"
+    "descrption"
+      ;
+  }
+
+
+  /* @media screen and (max-width: 1000px){
+  .Sub_Zone {
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: grid;
+    grid-template-columns: 10fr 0.5fr 2fr ;
+    grid-template-rows: 4fr 7fr 7fr  ;
+
+
+    grid-template-areas: 
+    "details"
+    " boite"
+    "descrption"
+      ;
+  }
+
+
+  } */
+
+
+  #Image_book{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+  #Text{
+
+    display: flex;
+    align-items: center;
+  }
+
+
+
+  #boite{
+
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  #details{
+
+    display: flex;
+    
+  
+  }
+
+  #description{
+
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+  }
+ 
+ 
+  /* .boite_details{
+    margin-left: 20px;
+    margin-bottom: 400px;
+    display: grid;
+
+  }
+
+.boite_card{
+    margin-top: 350px;
+    margin-right: 200px;
+    display: grid;
+} */
+  
+  /* .Zone #Boite {
+    height: 100%;
+    width: 98%;
+    margin-left: 1%;
+    display: grid;
+    grid-template-rows: 2fr 10fr 8fr;
+    grid-template-areas: 
+    "boite_details"
+    "boite_card"
+      ;
+  }
+
+  #boite_details{
+
+    border: 1px solid;
+    justify-content: left;
+    align-items: flex-start;
+  }
+
+  #boite_card{
+
+    display: flex;
+    border: 1px solid;
+    justify-content: flex-end;
+    align-items: flex-end;
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .descrp_image{
+
+    display: flex;
+}
+
+.boite{
+
+    display: flex;
+} */

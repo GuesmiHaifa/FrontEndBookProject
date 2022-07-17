@@ -1,1 +1,0 @@
-//la div qui contient les card (Card.js)

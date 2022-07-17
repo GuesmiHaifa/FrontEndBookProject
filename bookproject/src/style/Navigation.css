@@ -1,0 +1,30 @@
+nav {
+    width: var(--width);
+    margin: auto;
+    margin-left: 200px;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: left;
+    list-style: none;
+    margin-left: 50px;
+    padding-left: 10px;
+    text-align: center;
+    gap: 20px;
+}
+
+a:link, a:visited {
+    color: var(--dark);
+    font-family: "Montserrat Medium", "sans-serif";
+    transition: .5s;
+}
+
+a.active {
+    color: var(--secondary)
+}
+
+.active {
+    color: darkorange;
+}

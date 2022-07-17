@@ -1,1 +1,0 @@
-//slider des images déffilantes
